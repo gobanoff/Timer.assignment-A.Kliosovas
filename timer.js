@@ -41,7 +41,7 @@ function reset() {
 }
 
 function timerEnd() {
-  show("YOU LOSE !!!");
+  show("BOOM !!!   YOU LOSE !!!");
 }
 
 function show(message) {

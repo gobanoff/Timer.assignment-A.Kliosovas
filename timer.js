@@ -11,7 +11,30 @@ function reset() {
     document.getElementById("countdown").textContent = form;
   }
 
-
+  function start() {
+    clearInterval(finish);
+  
+    const inputMin = document.getElementById("min").value;
+    if (isNaN(inputMin)) {
+      show("INPUT DIGITS LOSER!");
+      return;
+    }
+  
+    const sum = inputMin * 60;
+    let secSum = sum;
+  
+    finish = setInterval(() => {
+      if (secSum <= 0) {
+        clearInterval(finish);
+        timerEnd();
+      } else {
+        secSum--;
+        displayTime(secSum);
+      }
+    }, 1000);
+  
+    displayTime(secSum);
+  }
 
 
 

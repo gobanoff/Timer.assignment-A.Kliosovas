@@ -1,0 +1,25 @@
+body {
+    position: relative;
+    height: 1100px;
+  
+    background: linear-gradient(180deg, #1419ef 0%, #b5c138 100%);
+  }
+
+  button {
+    width: 100px;
+    height: 40px;
+    color: rgb(244, 246, 246);
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    background: linear-gradient(299deg, #0a2dd6 0%, #ded02e 100%);
+    box-shadow: 5px 5px 10px 1px #000;
+  }
+  .btn {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+

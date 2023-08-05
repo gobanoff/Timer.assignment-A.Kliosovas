@@ -46,4 +46,11 @@ body {
     font-size: 25px;
     color: #000;
   }
-
+  .message {
+    position: absolute;
+    bottom: 250px;
+    left: 250px;
+    font-size: 200px;
+    font-weight: bold;
+    color: #ff280b;
+  }
